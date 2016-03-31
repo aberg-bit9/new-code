@@ -68,12 +68,18 @@
     </script>
   </head>
   <body>
-    <ul class="nav-items">
-      <li><a href="/#">Home</a></li>
-      <li><a href="/#/page1">Page 1</a></li>
-      <li><a href="#/page2">Page 2</a></li>
-    </ul>
-    <div id="view"></div>
+    <div class="app-container">
+      <div class="nav-container">
+         <ul class="nav-items">
+          <li><a href="/">Dashboard</a></li>
+          <li><a href="/#/processes">Processes</a></li>
+          <li><a href="/#/binaries">Binaries</a></li>
+          <li><a href="#/page2">Page 2</a></li>
+        </ul>
+      </div>
+      <div class="main-container" id="view">
+      </div>
+    </div>
     <script>
       route('/page2', 'template2', function () {
         this.heading = 'I\'m page two!';

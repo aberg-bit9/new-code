@@ -4,6 +4,10 @@
   "description": "bright shiny future",
   "author": "Andrew Berg",
   "license": "MIT",
+  "scripts": {
+    "start": "webpack-dev-server --inline --content-base ./build",
+    "build": "webpack -p"
+  },
   "dependencies": {
     "react": "^0.14.8",
     "react-dom": "^0.14.8",

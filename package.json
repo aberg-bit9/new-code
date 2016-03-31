@@ -3,6 +3,7 @@
   "version": "0.0.0",
   "description": "bright shiny future",
   "author": "Andrew Berg",
+  "repository": "https://github.com/aberg-bit9/new-code",
   "license": "MIT",
   "scripts": {
     "start": "webpack-dev-server --inline --content-base ./build",

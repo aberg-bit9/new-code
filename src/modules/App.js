@@ -10,7 +10,8 @@ export default React.createClass({
             <li><Link to="/">Dashboard</Link></li>
             <li><Link to="/processes">Processes</Link></li>
             <li><Link to="/binaries">Binaries</Link></li>
-            <li><a href="/v1/#/page2">Page 2</a></li>
+            <li><a href="/v1/#/sensors">Sensors</a></li>
+            <li><a href="/v1/#/settings">Settings</a></li>
           </ul>
         </nav>
         <main className="main-container">
